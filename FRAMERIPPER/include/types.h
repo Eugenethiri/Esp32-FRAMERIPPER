@@ -1,7 +1,6 @@
 #ifndef TYPES_H
 #define TYPES_H
 
-
 typedef struct {
   uint8_t frame_control[2] = { 0xC0, 0x00 };
   uint8_t duration[2];
